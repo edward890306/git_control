@@ -1,0 +1,34 @@
+-------- 設置git username & email --------
+
+1. 設置姓名 : git config --global user.name "Mao"
+
+2. 設置信箱 : git config --global user.email "edward890306@gmail.com"
+
+-------- 狀態 --------
+
+3. 查看每個檔案的狀態 : git status
+
+4. 未追蹤狀態轉成已追蹤狀態 : git add 檔案名稱
+
+5. 特定檔名未追蹤狀態轉成已追蹤狀態 : git add *.副檔名
+
+6. 行動歷史 : git log 
+
+7. 行動歷史(附有commit狀態的ID) : git log --oneline
+
+
+
+-------- 更改 --------
+
+8. 檔案變更記錄到本地版本庫 : git commit -m "..." (...表示你做了什麼修改) // 做任何修改都需要再做一次8. 
+
+9. 比較某檔案在不同時間點的差異 : git diff ID --檔名
+
+10. 還原檔案版本 : git checkout ID -- 檔名 後接8
+
+
+
+
+
+
+
